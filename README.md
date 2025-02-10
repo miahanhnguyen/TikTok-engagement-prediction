@@ -1,5 +1,5 @@
-# TikTok-engagement-prediction
-📊 TikTok Engagement & Sentiment Analysis
+# 📊 TikTok Engagement & Sentiment Analysis
+
 ## 🔍 Overview
 This project explores TikTok engagement dynamics using machine learning and sentiment analysis to identify key factors influencing user interaction. By analyzing video metadata, user attributes, and sentiment in captions, we predict engagement levels and provide actionable insights for content optimization.
 
