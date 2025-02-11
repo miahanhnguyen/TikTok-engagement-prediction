@@ -10,10 +10,13 @@ This project explores TikTok engagement dynamics using machine learning and sent
 - Provide data-driven strategies to enhance TikTok content performance.
 
 ## 📌 Thought process steps
+
 **1. Define Project Scope & Key Questions**
 - Identify the main objectives and research questions.
+- 
 **2.Determine Required Variables**
 - Select relevant variables for visualizations, relationships, and statistical analysis.
+- 
 **3.Dataset Exploration & Preprocessing**
 - Examine the dataset to understand the data types of each column.
 - Standardise and convert data types as needed.
@@ -21,6 +24,7 @@ This project explores TikTok engagement dynamics using machine learning and sent
 - Handle missing values using appropriate imputation methods (mean, median, mode, or zero).
 - Generate summary statistics and visualize distributions using histograms or bar plots.
 - Identify and address outliers if necessary.
+
 **4. Sentiment analysis**
 - Clean text data (remove special characters, etc.).
 - Compute sentiment scores using Python libraries.
@@ -29,6 +33,7 @@ This project explores TikTok engagement dynamics using machine learning and sent
   + Word clouds or bubble graphs for keyword emphasis.
 - Explore the relationship between sentiment and engagement (likes, shares, comments, play count).
 - Use SHAP scores to assess the impact and direction of each factor on sentiment scores.
+
 **5.Engagement prediction**
 - Compute engagement score: (like + share + comment)/ follow (or view) * 100
 - Use ML Regression method to predict how other factors such as hashtags, sentiment score, mention, number of followers, account popularity, likes, video duration, kind of music use impact the engagement rate
