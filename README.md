@@ -18,5 +18,11 @@ This project explores TikTok engagement dynamics using machine learning and sent
 - Missing value imputation (mean, median, mode or 0)
 - View statistics of each variable, histogram or bar plot for distribution
 - Handle outliers if necessary
-- Sentiment analysis:
-  + 
+- Sentiment analysis:  
+    + Clean word string (remove special characters, etc.)
+    + Using python package to count sentiment score for further assessment
+    + Plotting bar chart for word frequency
+    + Plotting word cloud/ bubble graph for visualisation
+    + Can do prediction of sentiment score based on engagement metrics such as like, share, comments, play etc.
+    + Plot feature importance or shap score (shap package) to examine in what direction each factor impact the sentiment score?
+- Enga
