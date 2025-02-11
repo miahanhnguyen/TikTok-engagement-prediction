@@ -10,26 +10,29 @@ This project explores TikTok engagement dynamics using machine learning and sent
 - Provide data-driven strategies to enhance TikTok content performance.
 
 ## 📌 Thought process steps
-1. Define Project Scope & Key Questions
+**1. Define Project Scope & Key Questions**
 - Identify the main objectives and research questions.
-- Working out the necessary variables that are required for subsequent visualisation, graph, relationships, statistics
-- Dataset overview to understand data type of each column
-- Convert and unify the data type in each column accordingly
-- Drop columns with > 70% missing values or unnecessary columns for subsequent analysis
-- Missing value imputation (mean, median, mode or 0)
-- View statistics of each variable, histogram or bar plot for distribution
-- Handle outliers if necessary
-- Sentiment analysis:  
-    + Clean word string (remove special characters, etc.)
-    + Using python package to count sentiment score for further assessment
-    + Plotting bar chart for word frequency
-    + Plotting word cloud/ bubble graph for visualisation
-    + Can do prediction of sentiment score based on engagement metrics such as like, share, comments, play etc.
-    + Plot feature importance or shap score (shap package) to examine in what direction each factor impact the sentiment score?
-- Engagement prediction:
-    + Calculate engagement score: (like + share + comment)/ follow (or view) * 100
-    + Use ML Regression method to predict how other factors such as hashtags, sentiment score, mention, number of followers, account popularity, likes, video duration, kind of music use impact the engagement rate
-    + What model would show best evaluation metrics: F1-score, recall, precision, ROC-AUC
-    + Can do model tuning to improve the performance
-    + Feature importance to examine which factors account for the majority of the prediction, in what direction
- 
+**2.Determine Required Variables**
+- Select relevant variables for visualizations, relationships, and statistical analysis.
+**3.Dataset Exploration & Preprocessing**
+- Examine the dataset to understand the data types of each column.
+- Standardise and convert data types as needed.
+- Remove columns with more than 70% missing values or those irrelevant to the analysis.
+- Handle missing values using appropriate imputation methods (mean, median, mode, or zero).
+- Generate summary statistics and visualize distributions using histograms or bar plots.
+- Identify and address outliers if necessary.
+**4. Sentiment analysis**
+- Clean text data (remove special characters, etc.).
+- Compute sentiment scores using Python libraries.
+- Visualise text data through
+  + Bar charts for word frequency.
+  + Word clouds or bubble graphs for keyword emphasis.
+- Explore the relationship between sentiment and engagement (likes, shares, comments, play count).
+- Use SHAP scores to assess the impact and direction of each factor on sentiment scores.
+**5.Engagement prediction**
+- Compute engagement score: (like + share + comment)/ follow (or view) * 100
+- Use ML Regression method to predict how other factors such as hashtags, sentiment score, mention, number of followers, account popularity, likes, video duration, kind of music use impact the engagement rate
+- Or categorise engagement score according to quantiles and use ML Classifier method to assess the above factors.
+- Evaluate models using F1-score, recall, precision, and ROC-AUC.
+- Perform hyperparameter tuning to improve model performance.
+- Analyse feature importance to identify the most influential factors and their impact direction.
