@@ -13,10 +13,10 @@ This project explores TikTok engagement dynamics using machine learning and sent
 
 **1. Define Project Scope & Key Questions**
 - Identify the main objectives and research questions.
-- 
+
 **2.Determine Required Variables**
 - Select relevant variables for visualizations, relationships, and statistical analysis.
-- 
+
 **3.Dataset Exploration & Preprocessing**
 - Examine the dataset to understand the data types of each column.
 - Standardise and convert data types as needed.
